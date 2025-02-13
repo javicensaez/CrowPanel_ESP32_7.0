@@ -282,13 +282,7 @@ void setup()
 void loop()
 {
 
-  char DHT_buffer[6];
-  int a = (int)dht20.getTemperature();
-  int b = (int)dht20.getHumidity();
-  snprintf(DHT_buffer, sizeof(DHT_buffer), "%d", a);
-  lv_label_set_text(ui_Label1, DHT_buffer);
-  snprintf(DHT_buffer, sizeof(DHT_buffer), "%d", b);
-  lv_label_set_text(ui_Label2, DHT_buffer);
+  
 
   if(led == 1)
   digitalWrite(38, HIGH);
