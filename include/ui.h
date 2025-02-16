@@ -30,7 +30,9 @@ void ui_Screen1_screen_init(void);
 extern lv_obj_t * ui_Screen1;
 extern lv_obj_t * ui_Slider1;
 extern lv_obj_t * ui_Switch1;
+extern lv_obj_t * ui_Arc1;
 // CUSTOM VARIABLES
+extern lv_obj_t * uic_Arc1;
 
 // EVENTS
 

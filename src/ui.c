@@ -14,7 +14,9 @@ void ui_Screen1_screen_init(void);
 lv_obj_t * ui_Screen1;
 lv_obj_t * ui_Slider1;
 lv_obj_t * ui_Switch1;
+lv_obj_t * ui_Arc1;
 // CUSTOM VARIABLES
+lv_obj_t * uic_Arc1;
 
 // EVENTS
 lv_obj_t * ui____initial_actions0;

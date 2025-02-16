@@ -28,5 +28,15 @@ void ui_Screen1_screen_init(void)
     lv_obj_set_align(ui_Switch1, LV_ALIGN_CENTER);
 
 
+    ui_Arc1 = lv_arc_create(ui_Screen1);
+    lv_obj_set_width(ui_Arc1, 150);
+    lv_obj_set_height(ui_Arc1, 150);
+    lv_obj_set_x(ui_Arc1, 97);
+    lv_obj_set_y(ui_Arc1, -81);
+    lv_obj_set_align(ui_Arc1, LV_ALIGN_CENTER);
+    lv_arc_set_value(ui_Arc1, 50);
+
+
+    uic_Arc1 = ui_Arc1;
 
 }

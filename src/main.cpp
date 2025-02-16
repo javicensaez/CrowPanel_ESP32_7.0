@@ -166,7 +166,7 @@ void setup()
 
   
   Wire.begin(19, 20);
-  dht20.begin();
+  
   // Out.reset();
   // Out.setMode(IO_OUTPUT);  //设置为输出模式
 
